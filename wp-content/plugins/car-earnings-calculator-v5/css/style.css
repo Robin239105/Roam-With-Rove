@@ -1,0 +1,195 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.calculator-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.calculator-form {
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+}
+.calculator-form {
+    border-right: 1px solid #eee;
+}
+.calculator-result{
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.car-type {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.car-type-btn {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color:#e00000;
+}
+.car-type-btn.active {
+    border: 2px solid #e00000;
+    color: #ffffff;
+    background-color: #e00000;
+}
+.car-type-btn:hover {
+    border-color: #e00000;
+    background-color: #fff;
+    color:#e00000;
+}
+.calculator-input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #d9d9d9;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color:#fff;
+}
+.inline-fields {
+    display: flex;
+    gap: 10px;
+}
+.inline-fields input {
+    flex: 1;
+}
+.cohosting-plan-label {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.cohosting-plan {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.plan-btn {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color:#e00000;
+}
+.plan-btn.active {
+    background: #e00000;
+    color: #fff;
+    border-color: #e00000;
+}
+.plan-btn:hover {
+    border-color: #e00000;
+    background-color: #fff;
+    color:#e00000;
+}
+.note {
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.calculator-result {
+    text-align: center;
+}
+.estimation {
+    margin-bottom: 20px;
+}
+#estimated-earnings {
+    font-size: 36px;
+    font-weight: bold;
+}
+.estimate-note {
+    font-style: italic;
+    font-size: 14px;
+}
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.action-btn {
+    background: #e00000;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.action-btn:hover {
+    color:#fff !important;
+}
+
+input[type="text"].calculator-input,
+input[type="number"].calculator-input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #d9d9d9;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .calculator-container {
+        flex-direction: column;
+        border-radius: 0;
+    }
+
+    .calculator-form, 
+    .calculator-result {
+        padding: 20px;
+        margin-top: 0;
+        border-right: none;
+        border-bottom: 1px solid #eee;
+    }
+
+    .car-type {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .car-type-btn {
+        flex: 1 1 45%;
+        padding: 10px;
+    }
+
+    .inline-fields {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cohosting-plan {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+    }
+
+    .action-btn {
+        width: 100%;
+        padding: 12px;
+    }
+
+    #estimated-earnings {
+        font-size: 28px;
+    }
+}

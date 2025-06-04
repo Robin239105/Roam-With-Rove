@@ -1,0 +1,7 @@
+[04-Jun-2025 20:14:07 UTC] PHP Warning:  Constant PASSWORD_DEFAULT already defined in /home/alaminrobin/roam.alaminrobin.com/update_pass.php on line 17
+[04-Jun-2025 20:37:46 UTC] Cron reschedule event error for hook: litespeed_task_imgoptm_pull, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[04-Jun-2025 20:37:46 UTC] Cron reschedule event error for hook: litespeed_task_lqip, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[04-Jun-2025 20:37:46 UTC] Cron reschedule event error for hook: wpseo_indexable_index_batch, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"fifteen_minutes","args":[],"interval":900}
+[04-Jun-2025 20:39:50 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 40960 bytes) in /home/alaminrobin/roam.alaminrobin.com/wp-content/plugins/elementor/includes/base/widget-base.php on line 191
+[04-Jun-2025 20:40:12 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /home/alaminrobin/roam.alaminrobin.com/wp-content/plugins/elementor/core/page-assets/data-managers/font-icon-svg/font-awesome.php on line 1
+[04-Jun-2025 20:40:16 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 495616 bytes) in /home/alaminrobin/roam.alaminrobin.com/wp-includes/blocks.php on line 1660

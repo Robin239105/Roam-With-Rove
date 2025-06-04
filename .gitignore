@@ -1,0 +1,19 @@
+# WordPress core files you might not want to track
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+
+# OS or IDE files
+.DS_Store
+Thumbs.db
+*.log
+
+# Composer and node_modules
+/vendor/
+/node_modules/
+
+# Env files and database exports
+.env
+*.sql
+
